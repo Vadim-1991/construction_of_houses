@@ -1,0 +1,1662 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NeumannRegular;
+    src: url("../fonts/neumann.otf");
+}
+
+@font-face {
+    font-family: MuseosanscyrlBold;
+    src: url("../Fonts/museosanscyrl-700.ttf");
+}
+
+@font-face {
+    font-family: MuseosanscyrlLight;
+    src: url("../fonts/museosanscyrl-300.ttf");
+}
+
+@font-face {
+    font-family: MuseosanscyrlNormal;
+    src: url("../fonts/museosanscyrl-500.ttf");
+}
+
+@font-face {
+    font-family: MuseosanscyrlThin;
+    src: url("../fonts/museosanscyrl-100.ttf");
+}
+
+body {
+    background: #25252d;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    background-image: url("../images/home-background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.header {
+    padding: 13px 0 20px 0;
+    border-bottom: 1px solid #363d51;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger{
+    cursor: pointer;
+}
+
+.burger svg {
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    margin-left: 95px;
+}
+
+.text-logo {
+    font-size: 18px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.phone-number {
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.link a {
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(236, 198, 107);
+    border-bottom: 1px solid rgb(236, 198, 107);
+}
+
+.construction-of-houses-and-cottages {
+    padding: 162px 0 274px 0;
+    background: rgb(38, 37, 44);
+    background: linear-gradient(to top, rgb(38, 37, 44) 0.1%, rgb(38 37 44 / 79%) 0.01%, transparent);
+}
+
+.construction-of-houses-and-cottages .container {
+    position: relative;
+}
+
+.construction-of-houses-and-cottages-title {
+    font-size: 50px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 595px;
+}
+
+.construction-of-houses-and-cottages-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 25px 25px 0 0;
+    text-align: center;
+}
+
+.construction-of-houses-and-cottages-button {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.btn {
+    background-image: -moz-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(37, 37, 45);
+}
+
+.social-network {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.social-network-instagram {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.social-network-instagram:hover {
+    opacity: 0.1;
+}
+
+.social-network-telegram {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.social-network-telegram:hover {
+    opacity: 0.1;
+}
+
+.social-network-youtube {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.social-network-youtube:hover {
+    opacity: 0.1;
+}
+
+.projects {
+    padding: 107px 0 121px 0;
+}
+
+.projects-title {
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+}
+
+.modern-house-block {
+    margin-top: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.modern-house-block-one-images {
+    display: flex;
+    margin-top: 20px;
+}
+
+.modern-house-block-one-images-img3 {
+    margin: 0 24px 0 24px;
+}
+
+.modern-house-block-two-title {
+    font-size: 30px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.modern-house-block-two-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlLight", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.278;
+    max-width: 486px;
+
+}
+
+.modern-house-block-two-circle {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modern-house-block-two-circle-one {
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(236, 198, 107);
+}
+
+
+.modern-house-block-two-circle-two {
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+}
+
+.modern-house-block-two-circle-three {
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 108px;
+    height: 108px;
+}
+
+.modern-house-block-two-buttons {
+    margin-top: 50px;
+}
+
+.modern-house-block-two-button-transparent {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.modern-house-block-two-button-one-btn {
+    background-image: -moz-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    width: 365px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(37, 37, 45);
+    text-align: center;
+}
+
+.modern-house-block-two-button-transparent {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 365px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-transparent {
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.three {
+    display: none;
+}
+
+.for {
+    display: none;
+}
+
+.five {
+    display: none;
+}
+
+.view-projects {
+    margin-top: 63px;
+    text-align: center;
+}
+
+.view-projects svg {
+    margin-left: 10px;
+    fill: rgb(137, 137, 138);
+}
+
+.view-projects a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(137, 137, 138);
+}
+
+.construction-technologies-title {
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+}
+
+.construction-technologies-block {
+    margin-top: 83px;
+    position: relative;
+}
+
+.construction-technologies-block-main-images {
+    text-align: center;
+}
+
+.construction-technologies-block-main-images-information-1 {
+    max-width: 269px;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.construction-technologies-block-main-images-information-2 {
+    max-width: 269px;
+    text-align: left;
+    position: absolute;
+    top: 117px;
+    right: -23px;
+}
+
+.construction-technologies-block-main-images-information-3 {
+    max-width: 239px;
+    text-align: left;
+    position: absolute;
+    top: 314px;
+    right: 19px;
+}
+
+.construction-technologies-block-main-images-information-4 {
+    max-width: 230px;
+    text-align: left;
+    position: absolute;
+    top: 479px;
+    right: 274px;
+}
+
+.construction-technologies-block-main-images-information-5 {
+    max-width: 239px;
+    text-align: left;
+    position: absolute;
+    top: 342px;
+    left: 69px;
+}
+
+.construction-technologies-block-main-images-indicator-1 {
+    position: absolute;
+    top: 77px;
+    left: 238px;
+}
+
+.construction-technologies-block-main-images-indicator-2 {
+    position: absolute;
+    top: 113px;
+    right: 263px;
+}
+
+.construction-technologies-block-main-images-indicator-3 {
+    position: absolute;
+    top: 259px;
+    right: 284px;
+}
+
+.construction-technologies-block-main-images-indicator-4 {
+    position: absolute;
+    top: 436px;
+    right: 564px;
+}
+
+.construction-technologies-block-main-images-indicator-5 {
+    position: absolute;
+    top: 296px;
+    left: 288px;
+}
+
+.construction-technologies-block-main-images-title {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.construction-technologies-block-main-images-text {
+    font-size: 16px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    margin-top: 16px;
+}
+
+.steps-to-your-first-home {
+    margin-top: 240px;
+    position: relative;
+}
+
+.steps-to-your-first-home-title {
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+}
+
+.six-steps-to-your-first-home {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns:340px 340px 280px;
+    justify-content: center;
+}
+
+.six-steps-to-your-first-home-1 {
+    display: flex;
+    max-width: 320px;
+
+}
+
+.six-steps-to-your-first-home-1-steps-1-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-1-steps-1-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-1 {
+    max-width: 240px;
+    margin-top: 54px;
+
+}
+
+.six-steps-to-your-first-home-info-title-1 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-1 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-1 a {
+    color: white;
+    font-size: 18px;
+    font-family: "MuseoSansCyrl", sans-serif;
+}
+
+.six-steps-to-your-first-home-2 {
+    display: flex;
+    max-width: 340px;
+}
+
+.six-steps-to-your-first-home-2-steps-2-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-2-steps-2-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-2 {
+    max-width: 270px;
+    margin-top: 50px;
+
+}
+
+.six-steps-to-your-first-home-info-title-2 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-3 {
+    display: flex;
+    max-width: 340px;
+}
+
+.six-steps-to-your-first-home-3-steps-3-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-3-steps-3-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-3 {
+    max-width: 203px;
+    margin-top: 50px;
+
+}
+
+.six-steps-to-your-first-home-info-title-3 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-4 {
+    display: flex;
+    max-width: 340px;
+    margin-top: 100px;
+}
+
+.six-steps-to-your-first-home-4-steps-4-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-4-steps-4-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-4 {
+    max-width: 195px;
+    margin-top: 50px;
+
+}
+
+.six-steps-to-your-first-home-info-title-4 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-5 {
+    display: flex;
+    max-width: 340px;
+    margin-top: 100px;
+}
+
+.six-steps-to-your-first-home-5-steps-5-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-5-steps-5-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-5 {
+    max-width: 242px;
+    margin-top: 50px;
+
+}
+
+.six-steps-to-your-first-home-info-title-5 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-5 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-6 {
+    display: flex;
+    max-width: 340px;
+    margin-top: 100px;
+}
+
+.six-steps-to-your-first-home-6-steps-6-number {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.six-steps-to-your-first-home-6-steps-6-logo {
+    position: relative;
+    top: -17px;
+    left: 7px;
+    z-index: 5;
+}
+
+.six-steps-to-your-first-home-info-6 {
+    max-width: 173px;
+    margin-top: 50px;
+
+}
+
+.six-steps-to-your-first-home-info-title-6 {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.six-steps-to-your-first-home-info-text-6 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.we-have-built-more-than-200-houses {
+    margin-top: 120px;
+}
+
+.we-have-built-more-than-200-houses-title {
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+/*Слик*/
+
+.slick-track .slick-center {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+}
+
+.slick-track {
+    padding-top: 30px;
+}
+
+.slick-slider .slick-list {
+    max-width: 1085px;
+    margin: 0 auto;
+}
+
+.slick-center {
+    display: flex;
+    align-items: center;
+}
+
+.slick-center img {
+    transform: scale(1.7);
+    transition: 0.5s linear; /*Увличиваем центральный слайд*/
+}
+
+.slick-prev {
+    left: 0;
+    top: 168px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.slick-next {
+    right: 0;
+    top: 163px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.slick-prev:before {
+    content: '';
+    background-image: url("../images/left-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ab975f;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-next:before {
+    content: '';
+    background-image: url("../images/right-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ab975f;
+    border-radius: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+/*стилизация точек навигации*/
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #ab975f;
+}
+
+.slick-dots li.slick-active button:before {
+    background-color: #ab975f;
+}
+
+.slick-center-info {
+    background-color: #313139;
+    margin-top: 35px;
+    width: 615px;
+    z-index: 10;
+}
+
+.slick-center-info-block {
+    padding: 15px 57px;
+    display: flex;
+}
+
+.slick-center-info-block-one {
+    border-right: 1px solid white;
+    height: 45px;
+    padding-right: 36px;
+}
+
+.slick-center-info-block-one-title {
+    font-size: 16px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.slick-center-info-block-one-text {
+    font-size: 16px;
+    font-family: "MuseosanscyrlLight", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+.slick-center-info-block-two {
+    padding-left: 43px;
+}
+
+.slick-center-info-block-two-title {
+    font-size: 16px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.slick-center-info-block-two-text {
+    font-size: 15px;
+    font-family: "MuseosanscyrlLight", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+.guarantees-and-payment-terms {
+    margin-top: 170px;
+}
+
+.guarantees-and-payment-terms-title {
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+}
+
+
+.guarantees-and-payment-terms-block {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guarantee-of-terms {
+    background-color: #313139;
+    width: 49%;
+    display: flex;
+    align-items: center;
+}
+
+.guarantee-of-terms-logo {
+    display: flex;
+    padding: 44px 41px 44px 40px;
+}
+
+.guarantee-of-term-info {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guarantee-of-term-info-tittle {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.guarantee-of-term-info-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+
+.insurance {
+    background-color: #313139;
+    width: 49%;
+    display: flex;
+    align-items: center;
+}
+
+.insurance-logo {
+    display: flex;
+    padding: 44px 41px 44px 40px;
+}
+
+.insurance-info {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.insurance-info-tittle {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.insurance-info-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+.guarantees-and-payment-terms-block-two {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fixed-estimate-block, .without-intermediaries, .payment-upon-the-fact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fixed-estimate-block-circle-one {
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-estimate-block-info {
+    margin-top: 30px;
+    max-width: 282px;
+}
+
+.fixed-estimate-block-title {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.fixed-estimate-block-text {
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.button-transparent-guarantees-and-payment-terms-block-two {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 365px;
+    height: 60px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.individual-consultation {
+    margin-top: 120px;
+    padding-bottom: 150px;
+}
+
+.individual-consultation .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.individual-consultation-block {
+    max-width: 512px;
+    margin-left: 50px;
+/*    text-align: center*/
+}
+
+.individual-consultation-block-title {
+    font-size: 33px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form{
+    position: relative;
+}
+
+.alignment-form{
+    text-align: center;
+}
+
+.checkbox-form{
+    margin-left: 59px;
+}
+
+.individual-consultation-block-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 30px;
+    outline: none;
+    background: transparent;
+    width: 407px;
+    height: 56px;
+    font-size: 18px;
+    font-family: "MuseosanscyrlLight", sans-serif;
+    color: white;
+    padding-left: 25px;
+    margin: 10px;
+}
+
+input::placeholder {
+    color: white;
+
+}
+
+.button-form {
+    background-image: -moz-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    width: 409px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(37, 37, 45);
+    margin: 10px 0 30px 0;
+}
+
+.checkbox-text {
+    font-size: 14px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    max-width: 321px;
+}
+
+.checkbox-text a {
+    font-size: 14px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.record {
+    padding-top: 200px;
+    overflow: hidden;
+    padding-bottom: 250px;
+}
+
+.record .container {
+    position: relative;
+}
+
+.record-img {
+    text-align: center;
+}
+
+.map {
+    position: absolute;
+    top: -159px;
+    left: -15px;
+    z-index: -3;
+}
+
+.record-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 88px;
+    left: calc(50% - 243px);
+}
+
+.record-info-title {
+    font-size: 60px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(236, 198, 107);
+    text-align: center;
+    max-width: 440px;
+
+}
+
+.record-info-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    max-width: 486px;
+}
+
+.record-info-button {
+    margin-top: 40px;
+
+}
+
+.record-button {
+    background-image: -moz-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    width: 306px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(37, 37, 45);
+
+}
+
+.footer {
+    border-top: 1px solid #363d51;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+.footer-info {
+    margin-top: 60px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.footer-logo a img {
+    margin-left: 25px;
+}
+
+
+.footer-logo-social-network {
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-network-telegram img {
+    margin: 0 30px;
+}
+
+.footer-info-address {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer-info-work-schedule {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.footer-number {
+    margin-top: 60px;
+}
+
+
+.pop-up-menu-block {
+    width: 300px;
+    height: 790px;
+    background: #25252d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.menu {
+    margin-left: 60px;
+}
+
+.close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    position: absolute;
+    top: 45px;
+    left: 63px
+}
+
+.menu-title {
+    margin-top: 116px;
+    font-size: 40px;
+    font-family: "NeumannRegular", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.pop-up-menu {
+    margin-top: 60px;
+    list-style: none;
+    line-height: 30px;
+}
+
+
+.pop-up-menu-link:hover {
+    color: #ecc66b;
+    list-style: circle;
+}
+
+.pop-up-menu-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "MuseosanscyrlLight", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.pop-up-menu-social-network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+
+/*Всплывающая форма*/
+.pop-up-menu-footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    background: #48485096;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.pop-up-menu-footer-block-common {
+    padding: 41px;
+}
+
+.pop-up-menu-footer-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.278;
+    max-width: 432px;
+    text-align: center;
+}
+
+
+.pop-up-menu-footer-form-button {
+    background-image: -moz-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(252, 195, 114) 0%, rgb(240, 219, 188) 100%);
+    width: 409px;
+    height: 60px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+    font-family: "MuseosanscyrlBold", sans-serif;
+    color: rgb(37, 37, 45);
+    margin: 10px 0 0 10px;
+}
+
+.input-form-pop-up-menu-footer-block {
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.pop-up-menu-footer-checkbox {
+    margin: 30px 0 0 70px;
+}
+
+
+.pop-up-menu-footer-checkbox-text {
+    font-size: 14px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 24px;
+}
+
+.pop-up-menu-footer-checkbox-text a {
+    font-size: 14px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+.close_two {
+    display: block;
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.error-input {
+    display: none;
+    text-align: left;
+    margin-left: 60px;
+    color: red;
+    font-size: 17px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+}
+
+.one-error {
+    position: absolute;
+    top: 64px;
+    left: 18px;
+}
+
+.two-error {
+    position: absolute;
+    top: 140px;
+    left: 22px;
+}
+.three-error {
+    position: absolute;
+    top: 305px;
+    left: 68px;
+}
+.one__error {
+    position: absolute;
+    top: 205px;
+    left: 27px;
+}
+
+.two__error{
+    position: absolute;
+    top: 281px;
+    left: 27px;
+}
+.three__error {
+    position: absolute;
+    top: 449px;
+    left: 61px;
+}
+
+.error-input_two {
+    margin-left: 50px;
+    color: red;
+    font-size: 17px;
+    display: none;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+}
+
+.modal {
+    display: none;
+    max-width: 450px;
+    color: #ecc66b;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 150px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    position: relative;
+}
+
+.modal_two {
+    display: none;
+    max-width: 450px;
+    color: #ecc66b;
+    font-size: 35px;
+    text-align: center;
+    margin: 150px 0 200px 0;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+}
+
+
+/*Стилизация чекбокса 1 ая форма*/
+.checkbox-input {
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox-input:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: #25252d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.checkbox-input:checked::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url("../images/tick2.png") no-repeat;
+    position: absolute;
+    top: -1px;
+    left: 2px;
+    z-index: 10;
+}
+
+/*Стилизация чекбокса 2 ая форма*/
+.pop-up-menu-footer-block-common {
+    position: relative;
+    background-image: url("../images/background-popap.png");
+}
+
+.check-pop-up {
+    position: relative;
+    margin-left: -40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.check-pop-up:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: #484850;
+    position: absolute;
+    top: 0;
+    left: -5px;
+    z-index: 5;
+}
+
+.check-pop-up:checked::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url("../images/tick2.png") no-repeat;
+    position: absolute;
+    top: -1px;
+    left: -3px;
+    z-index: 10;
+}
+
+/*Плавающая стрелка*/
+.wrapper {
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 0;
+}
+
+.arrow {
+    position: absolute;
+    left: calc(5%);
+    animation: arrow 3s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+
+.wrapper-text {
+    font-size: 18px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(186, 186, 186);
+    writing-mode: vertical-rl;
+    margin-bottom: 20px;
+    text-align: center;
+    /* вместо writing-mode: sideways-lr; */
+    transform: scale(-1); /* зеркальное отображение по вертикали и по горизонтали */
+}
+
+.slick-center-info {
+    display: none;
+}
+
+.slick-center .slick-center-info {
+    display: block;
+}
+
+.home-frame-tittle {
+    font-size: 16px;
+    font-family: "MuseosanscyrlNormal", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.home-frame-text {
+    font-size: 14px;
+    font-family: "MuseosanscyrlThin", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.home-frame {
+    position: relative;
+    background-color: #313139;
+    width: 290px;
+    align-items: center;
+    padding: 20px 16px 20px 16px;
+    display: none;
+}
+
+.home-frame:before, .home-frame:after {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 106px;
+    border-bottom: 15px solid #313139;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.home-frame:before {
+    top: -14px;
+    border-bottom-color: #313139;
+}
+
+
+.home-frame-circle-1 {
+    display: none;
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-frame-circle-2 {
+    display: none;
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-frame-circle-3 {
+    display: none;
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-frame-circle-4 {
+    display: none;
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-frame-circle-5 {
+    display: none;
+    border-width: 1px;
+    border-color: rgb(236, 198, 107);
+    border-style: solid;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-circle-home {
+    border-radius: 50%;
+    background-color: rgb(236, 198, 107);
+    box-shadow: 0px 0px 25.5px 4.5px rgba(0, 0, 0, 0.004);
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
+.modal_close{
+    fill: rgb(236, 198, 107);
+    top: 30px;
+    right: 55px;
+}
+
+.modal_close_one{
+    fill: rgb(236, 198, 107);
+    top: -110px;
+    right: -22px;
+}
+
+

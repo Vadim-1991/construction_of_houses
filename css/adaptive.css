@@ -1,0 +1,934 @@
+@media screen  and (max-width: 1250px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen  and (max-width: 1230px) {
+    .map img {
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
+
+@media screen  and (max-width: 1130px) {
+
+    .individual-consultation-image img {
+        max-width: 100%;
+    }
+
+    .construction-technologies-block-main-images img {
+        max-width: 100%;
+    }
+
+    .center-circle-home {
+        display: block;
+    }
+
+    .checkbox-form {
+        margin-left: -10px;
+    }
+
+    .modern-house-block-two-button-one-btn {
+        margin-bottom: 20px;
+    }
+
+    .construction-technologies-block-main-images-information-1 {
+        display: none;
+    }
+
+    .construction-technologies-block-main-images-information-2 {
+        display: none;
+    }
+
+    .construction-technologies-block-main-images-information-3 {
+        display: none;
+    }
+
+    .construction-technologies-block-main-images-information-4 {
+        display: none;
+    }
+
+    .construction-technologies-block-main-images-information-5 {
+        display: none;
+    }
+
+    .construction-technologies-block {
+        max-width: fit-content; /*ширина устанавливается по контенту*/
+        margin: 83px auto auto;
+    }
+
+    .home-frame-circle-1 {
+        position: absolute;
+        display: flex;
+        top: 138px;
+        left: 15%;
+    }
+
+    .home-frame-circle-2 {
+        position: absolute;
+        display: flex;
+        top: 149px;
+        left: 78%;
+    }
+
+    .home-frame-circle-3 {
+        position: absolute;
+        display: flex;
+        top: 323px;
+        left: 21%;
+    }
+
+    .home-frame-circle-4 {
+        position: absolute;
+        display: flex;
+        top: 319px;
+        left: 70%;
+    }
+
+    .home-frame-circle-5 {
+        position: absolute;
+        display: flex;
+        top: 483px;
+        left: 37%;
+    }
+
+    .modern-house-block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .modern-house-block-two {
+        margin-top: 20px;
+    }
+
+    .modern-house-block-one {
+        margin-top: 30px;
+    }
+
+    .modern-house-block-two-button-transparent {
+        margin: 0 auto;
+    }
+
+    .individual-consultation .container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .individual-consultation-block {
+        text-align: center;
+        margin: 0;
+    }
+
+    .checkbox-text {
+        text-align: left;
+    }
+
+    .construction-technologies-block-main-images-indicator-1 img {
+        display: none;
+
+    }
+
+    .construction-technologies-block-main-images-indicator-2 img {
+        display: none;
+
+    }
+
+    .construction-technologies-block-main-images-indicator-3 img {
+        display: none;
+
+    }
+
+    .construction-technologies-block-main-images-indicator-4 img {
+        display: none;
+
+    }
+
+    .construction-technologies-block-main-images-indicator-5 img {
+        display: none;
+
+    }
+}
+
+@media screen  and (max-width: 1060px) {
+
+    .points img {
+        display: none;
+    }
+
+    .record {
+        height: 400px;
+    }
+
+}
+
+@media screen  and (max-width: 1000px) {
+
+    .six-steps-to-your-first-home-4 {
+        margin: 0;
+    }
+
+    .six-steps-to-your-first-home-5 {
+        margin: 0;
+    }
+
+    .six-steps-to-your-first-home-6 {
+        margin: 0;
+    }
+
+    .six-steps-to-your-first-home {
+        grid-template-columns: repeat(2, 360px);
+        justify-items: center;
+        justify-content: center;
+        grid-gap: 50px 50px;
+    }
+
+    .construction-technologies-block-main-images {
+        max-width: 100%;
+    }
+}
+
+@media screen  and (max-width: 927px) {
+
+    .record-info {
+        top: -145px;
+    }
+
+    .guarantee-of-terms {
+        align-items: flex-start;
+        padding: 20px 20px 20px 0;
+    }
+
+    .insurance {
+        align-items: flex-start;
+        padding: 20px 0 0 0;
+    }
+
+}
+
+@media screen  and (max-width: 800px) {
+
+    .six-steps-to-your-first-home {
+        grid-template-columns: repeat(2, 260px);
+        justify-items: center;
+        justify-content: center;
+        grid-gap: 50px 50px;
+    }
+
+    .guarantee-of-terms {
+        align-items: flex-start;
+        padding: 20px 20px 20px 0;
+    }
+
+    .insurance {
+        align-items: flex-start;
+        padding: 20px 20px 20px 0;
+    }
+
+    .social-network {
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 670px) {
+
+    .guarantees-and-payment-terms-block {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .insurance {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .steps-to-your-first-home-title {
+        font-size: 34px;
+    }
+
+    .guarantee-of-terms {
+        width: 100%;
+    }
+
+    .modern-house-block-one img {
+        max-width: 100%;
+    }
+
+    .guarantees-and-payment-terms-block-two {
+        flex-direction: column;
+    }
+}
+
+@media screen  and (max-width: 645px) {
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .footer-info {
+        order: -3;
+    }
+
+    .footer-logo {
+        order: -10;
+    }
+
+    .phone-number {
+        order: -4;
+    }
+
+    .link {
+        order: -5;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+    }
+
+    .footer-logo-social-network {
+        order: 1;
+    }
+
+    .footer-logo-social-network {
+        margin-top: 20px;
+    }
+
+    .footer-info-work-schedule {
+        text-align: center;
+    }
+
+    .footer-info {
+        margin-top: 20px;
+    }
+
+    .record-info {
+        top: -145px;
+    }
+
+    .construction-of-houses-and-cottages-title {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .construction-of-houses-and-cottages-text {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .six-steps-to-your-first-home {
+        grid-gap: 45px 0;
+    }
+}
+
+@media screen  and (max-width: 600px) {
+
+    .construction-technologies-block {
+        max-width: fit-content; /*ширина устанавливается по контенту*/
+        margin: 83px auto auto;
+    }
+
+    .home-frame-circle-1 {
+        position: absolute;
+        display: flex;
+        top: 26%;
+        left: 15%;
+    }
+
+    .home-frame-circle-2 {
+        position: absolute;
+        display: flex;
+        top: 26%;
+        left: 78%;
+    }
+
+    .home-frame-circle-3 {
+        position: absolute;
+        display: flex;
+        top: 60%;
+        left: 21%;
+    }
+
+    .home-frame-circle-4 {
+        position: absolute;
+        display: flex;
+        top: 60%;
+        left: 70%;
+    }
+
+    .home-frame-circle-5 {
+        position: absolute;
+        display: flex;
+        top: 90%;
+        left: 37%;
+    }
+
+}
+
+@media screen  and (max-width: 620px) {
+
+    .steps-to-your-first-home-title {
+        font-size: 30px;
+    }
+
+    .six-steps-to-your-first-home {
+        grid-template-columns:300px;
+        align-items: center;
+        justify-content: center;
+        grid-gap: 50px;
+    }
+
+    .we-have-built-more-than-200-houses-title {
+        font-size: 30px;
+    }
+
+    .record-info-title {
+        font-size: 40px;
+    }
+}
+
+@media screen  and (max-width: 550px) {
+
+    .slick-center-info-block {
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .slick-center-info-block-two-title {
+        font-size: 14px;
+    }
+
+    .slick-center-info-block-two-text {
+        font-size: 14px;
+    }
+
+    .slick-center-info-block-one-title {
+        font-size: 14px;
+    }
+
+    .slick-center-info-block-one-text {
+        font-size: 14px;
+    }
+
+    .individual-consultation-block-title {
+        font-size: 30px;
+    }
+
+    .phone-number-and-link {
+        display: none;
+    }
+
+    .header .container {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen  and (max-width: 450px) {
+    .home-frame {
+        margin: 30px auto;
+    }
+
+    .checkbox-text {
+        margin-left: 15px;
+        max-width: 273px;
+    }
+
+    .checkbox-text a {
+        font-size: 12px;
+    }
+
+    .record-info {
+        left: 0;
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .slick-center-info-block {
+        padding-bottom: 15px;
+    }
+
+    .slick-center-info-block-one {
+        padding-right: 10px;
+        height: 65px;
+    }
+
+    .slick-center-info-block-one-text {
+        max-width: 130px;
+        margin-bottom: 10px;
+    }
+
+    .slick-center-info-block-two {
+        padding-left: 15px;
+    }
+
+    .construction-of-houses-and-cottages-title {
+        font-size: 33px;
+    }
+
+    .checkbox-text {
+        font-size: 12px;
+    }
+
+    .font {
+        font-size: 12px;
+    }
+
+    .record-info-text {
+        font-size: 15px;
+        max-width: 367px;
+    }
+
+    .individual-consultation-block {
+        max-width: 370px;
+    }
+
+    .button-transparent-guarantees-and-payment-terms-block-two {
+        width: 300px;
+    }
+
+    .modern-house-block-two-button-one-btn {
+        width: 300px;
+    }
+
+    .modern-house-block-two-button-transparent {
+        width: 300px;
+    }
+
+    .guarantee-of-term-info-text {
+        font-size: 15px;
+    }
+
+    .insurance-info-text {
+        font-size: 15px;
+    }
+
+    .individual-consultation-block-title {
+        font-size: 25px;
+    }
+
+    .input-form {
+        width: 320px;
+    }
+
+    .button-form {
+        width: 300px;
+    }
+
+    .record-info-title {
+        font-size: 35px;
+    }
+
+    .phone-number-and-link {
+        display: none;
+    }
+
+    .record-button {
+        width: 270px;
+    }
+
+    .projects-title {
+        font-size: 34px;
+    }
+
+    .modern-house-block-two-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .modern-house-block-two-circle-one {
+        width: 90px;
+        height: 90px;
+        font-size: 15px;
+    }
+
+    .modern-house-block-two-circle-two {
+        width: 90px;
+        height: 90px;
+        font-size: 15px;
+    }
+
+    .modern-house-block-two-circle-three {
+        width: 90px;
+        height: 90px;
+        font-size: 15px;
+    }
+
+    .modern-house-block-two-circle-two {
+        margin: 0 15px;
+    }
+
+}
+
+@media screen  and (max-width: 320px) {
+
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .checkbox-text {
+        margin-left: 15px;
+        max-width: 268px;
+    }
+
+    .guarantee-of-term-info-tittle {
+        font-size: 16px;
+    }
+
+    .guarantee-of-term-info-text {
+        font-size: 13px;
+        max-width: 203px;
+        line-height: 1.357;
+    }
+
+    .guarantee-of-terms {
+        padding: 20px 10px 0 0;
+    }
+
+    .guarantee-of-terms-logo {
+        padding: 0px 20px 63px 20px;
+    }
+
+    .guarantee-of-terms-logo img {
+        width: 30px;
+    }
+
+    .modern-house-block-two {
+        display: contents;
+    }
+
+    .modern-house-block-two-title {
+        order: 1;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .modern-house-block-one {
+        order: 2;
+        margin: 0;
+    }
+
+    .modern-house-block-two-text {
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .modern-house-block-two-circle {
+        order: 4;
+        margin-top: 40px;
+    }
+
+    .modern-house-block-two-circle-two {
+        margin: 0 15px;
+    }
+
+    .modern-house-block-two-buttons {
+        order: 5;
+    }
+
+    .modern-house-block {
+        margin-top: 50px;
+    }
+
+    .construction-of-houses-and-cottages-title {
+        font-size: 26px;
+    }
+
+    .btn {
+        width: 280px;
+    }
+
+    .modern-house-block-two-button-one-btn {
+        width: 280px;
+    }
+
+    .modern-house-block-two-button-transparent {
+        width: 280px;
+    }
+
+    .button-transparent {
+        font-size: 15px;
+    }
+
+    .center {
+        font-size: 15px;
+    }
+
+    .modern-house-block-two-circle-one {
+        width: 85px;
+        height: 85px;
+    }
+
+    .modern-house-block-two-circle-two {
+        width: 85px;
+        height: 85px;
+    }
+
+    .modern-house-block-two-circle-three {
+        width: 85px;
+        height: 85px;
+    }
+
+    .projects-title {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .construction-technologies-title {
+        font-size: 30px;
+    }
+
+    .we-have-built-more-than-200-houses-title {
+        font-size: 28px;
+    }
+
+    .guarantees-and-payment-terms-title {
+        font-size: 30px;
+    }
+
+    .insurance {
+        padding: 20px 7px 0 0;
+    }
+
+    .insurance-info-text {
+        font-size: 13px;
+        max-width: 203px;
+        line-height: 1.357;
+    }
+
+    .insurance-info-tittle {
+        font-size: 14px;
+    }
+
+    .insurance-logo {
+        padding: 0px 20px 63px 20px;
+    }
+
+    .insurance-logo img {
+        width: 30px;
+    }
+
+    .fixed-estimate-block-title {
+        font-size: 16px;
+    }
+
+    .fixed-estimate-block-text {
+        font-size: 16px;
+    }
+
+    .individual-consultation-image {
+        display: none;
+    }
+
+    .individual-consultation-block-title {
+        font-size: 30px;
+    }
+
+    .input-form {
+        width: 290px;
+    }
+
+    .button-form {
+        width: 290px;
+    }
+
+    .checkbox-text {
+        font-size: 12px;
+    }
+
+    .font {
+        font-size: 12px;
+    }
+
+    .record-info-title {
+        font-size: 30px;
+        max-width: 220px;
+    }
+
+    .record-info-text {
+        max-width: 285px;
+    }
+
+    .record-button {
+        width: 290px;
+    }
+
+    .footer-info-address {
+        font-size: 16px;
+    }
+
+    .footer-info-work-schedule {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        display: none;
+    }
+
+    .home-frame {
+        margin-top: 20px;
+    }
+
+    #one__block {
+        margin: 0 auto;
+    }
+
+
+    .home-frame:before, .home-frame:after {
+        left: 95px;
+    }
+
+    .six-steps-to-your-first-home {
+        grid-template-columns: 280px;
+    }
+
+    .slick-dots {
+        left: 12px;
+    }
+
+    .button-transparent-guarantees-and-payment-terms-block-two {
+        width: 290px;
+    }
+
+    .steps-to-your-first-home {
+        margin-top: 120px;
+    }
+
+    .footer-info-address {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .footer-info-work-schedule {
+
+        margin-top: 20px;
+    }
+
+    .footer-number {
+        margin-top: 50px;
+    }
+
+    .record-info {
+        left: 17px;
+    }
+
+    .map {
+        width: 500px;
+        top: -235px;
+        left: -103px;
+    }
+
+    .pop-up-menu-footer-block-common {
+        padding: 10px;
+    }
+
+    .pop-up-menu-footer-text {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .pop-up-menu-footer-form-button {
+        width: 290px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .input-form-pop-up-menu-footer-block {
+        margin-top: 20px;
+        max-width: 290px;
+    }
+
+    .pop-up-menu-footer-checkbox {
+        margin: 30px 0 0 70px;
+    }
+
+    /**/
+    .pop-up-menu-footer-checkbox-text {
+        font-size: 12px;
+    }
+
+    .pop-up-menu-footer-checkbox-text a {
+        font-size: 12px;
+    }
+
+    .close_two {
+        display: block;
+        width: 20px;
+        height: 20px;
+        top: 12px;
+        right: 18px;
+    }
+
+    .pop-up-menu-footer-checkbox-text:before {
+        bottom: 79px;
+        left: 35px;
+    }
+
+    .pop-up-menu-footer-checkbox {
+        margin: 20px 0 20px 60px;
+    }
+
+    .one-error {
+        position: absolute;
+        top: 235px;
+        left: -15px;
+    }
+
+    .two-error {
+        position: absolute;
+        top: 312px;
+        left: -15px;
+    }
+
+    .three__error {
+        position: absolute;
+        top: 411px;
+        left: 20px;
+    }
+
+    .one__error {
+        position: absolute;
+        top: 168px;
+        left: -7px;
+    }
+
+    .two__error {
+        position: absolute;
+        top: 243px;
+        left: -2px;
+    }
+
+    .modal_two {
+        font-size: 29px;
+    }
+
+}
+
+
+
+
